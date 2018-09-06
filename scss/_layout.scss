@@ -19,21 +19,7 @@
 	background-size: cover;
 	margin-bottom: 0;
 	color:#f2f2f2;
-	h1
-	{
-		font-size: 5rem;
-		@include shadow(2px,2px,2px,red);
-		@include shadow(-2px,-2px,2px,red);
 
-	}
-
-	.lead {
-		font-size: 2rem;
-		color:#f2f2f2;
-		@include shadow(1px,1px,1px,red);
-		@include shadow(-1px,-1px,1px,red);
-		letter-spacing: 0.3rem;
-	}
 }
 
 #about

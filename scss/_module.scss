@@ -108,6 +108,11 @@ form
 		color: white;
 		@include shadow(2px,2px,2px,black);
 	}
+
+	#exampleInputEmail1
+	{
+		margin-bottom: 1rem;
+	}
 }
 
 .header
