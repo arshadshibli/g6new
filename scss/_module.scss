@@ -10,10 +10,15 @@
 	height : 4rem;
 	width : 8rem;
 }
+.nav-link
+{
+	font-family: 'Concert One', cursive;
+}
 .jumbotron
 {
 		h1
 	{
+		font-family: 'Coiny', cursive;
 		font-size: 4rem;
 		@include shadow(2px,2px,2px,red);
 		@include shadow(-2px,-2px,2px,red);
@@ -21,6 +26,7 @@
 	}
 
 	.lead {
+		font-family: 'Pacifico', cursive;
 		font-size: 1.6rem;
 		color:#f2f2f2;
 		@include shadow(1px,1px,1px,red);
@@ -35,6 +41,16 @@
 	text-align: center;
 }
 
+blockquote
+{
+	h1{
+		font-family: 'Kavoon', cursive;
+	}
+	p
+	{
+		font-family: 'Concert One', cursive;
+	}
+}
 .carousel-item 
 {
 	width: 100%;
@@ -51,6 +67,7 @@
 		h5
 		{
 			font-size: 1.25rem;
+			font-family: 'Courgette', cursive;
 			@include shadow(2px,2px,5px,red);
 			background: rgba(gray,0.6);
 		}
@@ -69,8 +86,13 @@
 			width: 100%;
 
 		}
+		.card-title
+		{
+			font-family: 'Courgette', cursive;
+		}
 		.card-body
 		{
+			font-family: 'Concert One', cursive;
 			padding-right:2rem;
 		}
 	}
@@ -91,6 +113,14 @@
 		}
 		.card-body
 		{
+			h4
+			{
+				font-family: 'Coiny', cursive;
+			}
+			h6
+			{
+			font-family: 'Pacifico', cursive;	
+			}
 			p
 			{
 		
@@ -117,7 +147,7 @@ form
 
 .header
 {
-	background-color: rgba(gray,0.6) !important;
+	background-color: rgba(gray,0.95) !important;
 	@include shadow(2px,2px,2px,red);
 }
 
@@ -177,7 +207,7 @@ blockquote
 		font-size: 2.5rem;
 	}
 	p {
-		font-size: 1.275rem
+		font-size: 1.275rem;
 
 	}
 
@@ -207,5 +237,25 @@ blockquote
 
 		}
 	}
+}
+.locationalbum
+{
+	flex-direction:row;
+	.locationalbum-item
+	{
+		flex-direction:45%;
+		height: 40vh;
+	}
+	.location
+	{
+		.location-box
+		{
+			a
+			{
+				font-size: 2rem;
+			}
+		}
+	}
+
 }
 }
